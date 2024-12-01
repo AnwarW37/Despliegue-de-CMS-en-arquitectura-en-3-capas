@@ -1,7 +1,7 @@
 # WORDPRESS 3 CAPAS
 ## Índice
 - [Introducción](#introducción)
-- [Despliegue AWS](#DespliegueAWS)
+- [Despliegue](#Despliegue)
 
 ## Introducción
 En esta práctica, he desplegado WordPress en AWS con alta disponibilidad y escalabilidad, implementando una arquitectura en tres capas:
@@ -11,6 +11,8 @@ En esta práctica, he desplegado WordPress en AWS con alta disponibilidad y esca
 
 Con respecto a la infraestructura,que solo la capa pública sea accesible desde el exterior. Además, se impedirá la conectividad directa entre las capas 1 y 3, y se utilizan grupos de seguridad para proteger las máquinas y gestionar el tráfico entre las capas.
 
-## Despliegue AWS
-En primer lugar, creamos una VPC.
-![IM1](https://drive.google.com/file/d/1nzFyFNLwlM3VuhoMRlpsrKd5Jyhjr4_X)
+## Despliegue
+En primer lugar, creamos una VPC.  
+
+![1](https://github.com/user-attachments/assets/c51a2623-7f21-448b-9075-81ec066681e6)
+
