@@ -1,7 +1,7 @@
 # WORDPRESS 3 CAPAS
 ## Índice
 - [Introducción](#introducción)
-- [Despliegue AWS](#Despliegue AWS)
+- [Despliegue AWS](#DespliegueAWS)
 
 ## Introducción
 En esta práctica, he desplegado WordPress en AWS con alta disponibilidad y escalabilidad, implementando una arquitectura en tres capas:
