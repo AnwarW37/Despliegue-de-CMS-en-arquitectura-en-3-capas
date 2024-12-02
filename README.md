@@ -51,6 +51,23 @@ Necesitamos crear las siguientes instancias.
 * Balanceador de Carga
   * He utilizado la imagen de Ubuntu Server 24.04 LTS.
   * Par de claves vockey.
+  * En la configuración de red, he seleccionado la VPC que hemos creado anteriormente,la subred pública y habilitado la opción de asignar automáticamente la IP pública.
+  * El grupo de seguridad he creado el siguiente:
+    * Permite la conexion HTTP,HTTS y SSH desde cualquier red , podemos mejorar la seguridad asignando nuestra ip a la regla del ssh.
+  * ![9](https://github.com/user-attachments/assets/6ccce951-67c8-464f-95f6-4d52ff178e65)
 
+* Servidores Web
+  * He utilizado la imagen de Ubuntu Server 24.04 LTS.
+  * Par de claves vockey.
+  * En la configuración de red, he seleccionado la VPC que hemos creado anteriormente,la subred privada de los servidores web y el NFS.
+  * El grupo de seguridad he creado el siguiente:
+    * Permite la conexion HTTP y HTTPS solo al Balanceador de carga.
+  * ![8](https://github.com/user-attachments/assets/e2b79453-86d3-4313-9be1-78c7d78c4438)  
 
+* Servidor NFS
+  * He utilizado la imagen de Ubuntu Server 24.04 LTS.
+  * Par de claves vockey.
+  * En la configuración de red, he seleccionado la VPC que hemos creado anteriormente,la subred privada de los servidores web y el NFS.
+  * El grupo de seguridad he creado el siguiente:
+  * ![10](https://github.com/user-attachments/assets/3b04dce3-9f05-4e4f-b78c-fb1d8ea69b2e)
 
