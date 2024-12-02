@@ -31,3 +31,4 @@ Para mayor seguridad he dividido la red 192.168.1.0/24 en 3 subredes , una para 
 ![4](https://github.com/user-attachments/assets/4d28a357-ab87-4a9c-a3cd-4e5b5a95c2d6)
 
 Para la Subred Pública , tenemos que activar la siguiente opción:
+
