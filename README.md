@@ -6,7 +6,7 @@
   - [Tablas de enrutamiento](#tablas-de-enrutamiento)
   - [Instancias](#instancias)
     - [Balanceador de Carga](#balanceador-de-carga)
-    - [2 Servidores Web](#servidores-web)
+    - [Servidores Web](#servidores-web)
     - [Servidor NFS](#servidor-nfs)
     - [Servidor Base de Datos](#servidor-base-de-datos)
 
