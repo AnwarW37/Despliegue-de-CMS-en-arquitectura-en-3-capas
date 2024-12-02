@@ -23,12 +23,13 @@ En primer lugar he creado la VPC. Con la red 192.168.1.0/24
 Para mayor seguridad he dividido la red 192.168.1.0/24 en 3 subredes , una para cada capa.
 * Subred Pública.
 ![2](https://github.com/user-attachments/assets/0a33a75a-618a-422f-97bc-19de53c3e03b)
+Además, para la Subred Pública, tenemos que activar la siguiente opción para que, cuando vayamos a crear la instancia, este le asigne una IP pública.
+
+* ![5](https://github.com/user-attachments/assets/d19378e0-d232-4bdb-ae86-d1cbdfaa71bd)
 
 * Subred Privada Servidores Web y NFS.
 ![3](https://github.com/user-attachments/assets/145271ac-1950-40c4-a008-7e914b06d838)
 
 * Subred Privada para Base de Datos.
 ![4](https://github.com/user-attachments/assets/4d28a357-ab87-4a9c-a3cd-4e5b5a95c2d6)
-
-Para la Subred Pública , tenemos que activar la siguiente opción:
 
