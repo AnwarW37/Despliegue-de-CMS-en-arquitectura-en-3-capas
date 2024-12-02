@@ -1,6 +1,6 @@
 ## Índice
 - [Introducción](#introducción)
-- [Despliegue](#despliegue)
+- [DDespliegue y Configuración](#despliegue-y-configuración)
   - [VPC](#vpc)
   - [Subredes](#subredes)
   - [Tablas de enrutamiento](#tablas-de-enrutamiento)
@@ -18,7 +18,7 @@ En esta práctica, he desplegado WordPress en AWS con alta disponibilidad y esca
 
 Con respecto a la infraestructura, que solo la capa pública sea accesible desde el exterior. Además, se impedirá la conectividad directa entre las capas 1 y 3, y se utilizan grupos de seguridad para proteger las máquinas y gestionar el tráfico entre las capas.
 
-## Despliegue
+## Despliegue y Configuración
 
 ### VPC
 En primer lugar he creado la VPC. Con la red 192.168.1.0/24
