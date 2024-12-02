@@ -1,6 +1,6 @@
 ## Índice
 - [Introducción](#introducción)
-- [DDespliegue y Configuración](#despliegue-y-configuración)
+- [Despliegue y Configuración](#despliegue-y-configuración)
   - [VPC](#vpc)
   - [Subredes](#subredes)
   - [Tablas de enrutamiento](#tablas-de-enrutamiento)
