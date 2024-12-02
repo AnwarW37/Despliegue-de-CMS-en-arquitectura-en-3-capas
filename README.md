@@ -45,3 +45,12 @@ Creamos 2 tablas de enrutamiento, una para la subred pública y otra para las pr
   
   La asociamos a las subredes privada y le añadimos las siguientes rutas. La local que viene por defecto y para que tengan conexion a internet , primero antes creamos una GateawayNAT. Una vez instalado los paquetes que necesitamos se lo quitamos para una mayor seguridad.
   ![7](https://github.com/user-attachments/assets/9f7f3315-d39a-435e-979c-bcdaacd4d7ad)
+
+## Instancias
+Necesitamos crear las siguientes instancias.
+* Balanceador de Carga
+  * He utilizado la imagen de Ubuntu Server 24.04 LTS.
+  * Par de claves vockey.
+
+
+
