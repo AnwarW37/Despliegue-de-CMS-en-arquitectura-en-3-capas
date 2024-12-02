@@ -86,3 +86,4 @@ Necesitamos crear las siguientes instancias.
   * El grupo de seguridad que he creado es el siguiente:
     * Permite el tráfico de MySQL Puerto "3306" a los servidores web. La regla SSH, como he comentado anteriormente, la podemos quitar o poner la IP del dispositivo con el que nos vamos a conectar. Yo, en este caso, me he conectado mediante los servidores web. Ya que la práctica nos especifíca que no puede haber conectividad entre la Capa 1 y la Capa 3.
   * ![10](https://github.com/user-attachments/assets/275659f4-3bf2-4035-b743-67ab6d10c389)
+a
