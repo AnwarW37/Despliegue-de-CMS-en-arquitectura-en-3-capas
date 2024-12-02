@@ -84,5 +84,5 @@ Necesitamos crear las siguientes instancias.
   * Par de claves vockey.
   * En la configuración de red, he seleccionado la VPC que hemos creado anteriormente, la subred privada de la base de datos.
   * El grupo de seguridad que he creado es el siguiente:
-    * Permite el tráfico de MySQL "3306" a los servidores web. La regla SSH, como he comentado anteriormente, la podemos quitar o poner la IP del dispositivo con el que nos vamos a conectar. Yo, en este caso, me he conectado mediante los servidores web. Ya que la práctica nos especifica que no puede haber conectividad entre la Capa 1 y la Capa 3.
+    * Permite el tráfico de MySQL "3306" a los servidores web. La regla SSH, como he comentado anteriormente, la podemos quitar o poner la IP del dispositivo con el que nos vamos a conectar. Yo, en este caso, me he conectado mediante los servidores web. Ya que la práctica nos especifíca que no puede haber conectividad entre la Capa 1 y la Capa 3.
   * ![10](https://github.com/user-attachments/assets/275659f4-3bf2-4035-b743-67ab6d10c389)
