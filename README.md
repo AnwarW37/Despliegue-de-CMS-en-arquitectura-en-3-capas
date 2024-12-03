@@ -53,6 +53,9 @@ Creamos 2 tablas de enrutamiento, una para la subred pública y otra para las pr
   La asociamos a las subredes privadas y le añadimos las siguientes rutas. La local que viene por defecto y, para que tengan conexión a internet, primero antes creamos una GateawayNAT. Una vez instalados los paquetes que necesitamos, se lo quitamos para una mayor seguridad.
   ![7](https://github.com/user-attachments/assets/9f7f3315-d39a-435e-979c-bcdaacd4d7ad)
 
+El resultado final de la VPC sería la siguiente:
+![12](https://github.com/user-attachments/assets/deef59b0-6d52-4674-b29d-ab887b3588f2)
+
 ## Instancias
 Necesitamos crear las siguientes instancias.
 
