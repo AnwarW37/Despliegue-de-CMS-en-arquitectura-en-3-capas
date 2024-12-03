@@ -93,9 +93,16 @@ Los comando que he utilizado para instalar y configurar las instancias están en
 
 Para conectarme a la instancia, he descargado el archivo labuser.pem desde la página de lanzamiento del laboratorio de AWS. Es importante asignar los siguientes permisos al archivo para que nos permita conectarnos por SSH a la instancia del balanceador, que es la que tiene la IP pública.
 
-**
+Le damos permisos de lectura al usuario.
+```
+chmod 400 "labsuser.pem"
+```
+Conexión por ssh al Balanceador.
+```
 ssh -i "labsuser.pem" ubuntu@18.232.211.249
-**
+```
+
+
 
 
 
