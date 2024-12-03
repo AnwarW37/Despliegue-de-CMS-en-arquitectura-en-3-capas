@@ -4,12 +4,12 @@
   - [VPC](#vpc)
   - [Subredes](#subredes)
   - [Tablas de enrutamiento](#tablas-de-enrutamiento)
-- [Instancias](#instancias)
+- [Creación de Instancias](#3.-creacion-de-instancias)
     - [Balanceador de Carga](#balanceador-de-carga)
     - [Servidores Web](#servidores-web)
     - [Servidor NFS](#servidor-nfs)
     - [Servidor Base de Datos](#servidor-base-de-datos)
-- [3.Aprovisionamiento de las Instancias](#3.-Aprovisionamiento-de-las-Instancias)
+- [4.Aprovisionamiento de las Instancias](#4.-Aprovisionamiento-de-las-Instancias)
 
 ## 1. Introducción
 En esta práctica, he desplegado WordPress en AWS con alta disponibilidad y escalabilidad, implementando una arquitectura en tres capas:
@@ -58,7 +58,7 @@ El resultado final de la VPC sería la siguiente:
 Como podemos ver, cada subred está asignada a su tabla de enrutamiento y a su salida a internet correspondiente.
 ![12](https://github.com/user-attachments/assets/deef59b0-6d52-4674-b29d-ab887b3588f2)
 
-## Instancias
+## 3. Creacion de Instancias
 Con respecto a la infraestructura , necesitamos crear las siguientes instancias.
 
 ### Balanceador de Carga
@@ -99,7 +99,7 @@ Con respecto a la infraestructura , necesitamos crear las siguientes instancias.
     * La regla SSH, como he comentado anteriormente, la podemos quitar o poner la IP del dispositivo con el que nos vamos a conectar. Yo, en este caso, me he conectado mediante los servidores web. Ya que la práctica nos especifíca que no puede haber conectividad entre la Capa 1 y la Capa 3.
   * ![10](https://github.com/user-attachments/assets/275659f4-3bf2-4035-b743-67ab6d10c389)
 
-## 3. Aprovisionamiento de las Instancias
+## 4. Aprovisionamiento de las Instancias
 En primer lugar , tengo que  conectarme a la instancia. Para ello, he descargado el archivo labuser.pem desde la página de lanzamiento del laboratorio de AWS. Es importante asignar los siguientes permisos al archivo para que nos permita conectarnos por SSH a la instancia del balanceador, que es la que tiene la IP pública.
 
 Le damos permisos de lectura al usuario.
