@@ -101,7 +101,10 @@ Conexión por ssh al Balanceador.
 ```
 ssh -i "labsuser.pem" ubuntu@18.232.211.249
 ```
-
+Para pasar el fichero de clave "labuser.pem" al servidor web. Para conectarnos a la Base de datos.
+```
+scp -i "labsuser.pem" labuser.pem ubuntu@192.168.1.69:/home/ubuntu
+```
 
 
 
