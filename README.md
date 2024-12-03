@@ -90,7 +90,10 @@ Necesitamos crear las siguientes instancias.
 
 ## Aprovisionamiento de las Instancias
 Los comando que he utilizado para instalar y configurar las instancias están en los ficheros de aprovisionamiento. Con una breve explicación de lo que hace cada comando.
-[Balanceador](BALANaprov.sh)
+* [Balanceador](BALANaprov.sh)
+* [NFS](NFSaprov.sh)
+* [Servidores Web](WEBaprov.sh)
+* [Base Datos](BDaaprov.sh)
 
 Para conectarme a la instancia, he descargado el archivo labuser.pem desde la página de lanzamiento del laboratorio de AWS. Es importante asignar los siguientes permisos al archivo para que nos permita conectarnos por SSH a la instancia del balanceador, que es la que tiene la IP pública.
 
