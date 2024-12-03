@@ -4,7 +4,7 @@
   - [VPC](#vpc)
   - [Subredes](#subredes)
   - [Tablas de enrutamiento](#tablas-de-enrutamiento)
-- [Creación de Instancias](#3.-Creacion-de-Instancias)
+- [Creación de Instancias](#3.-Creación-de-Instancias)
     - [Balanceador de Carga](#balanceador-de-carga)
     - [Servidores Web](#servidores-web)
     - [Servidor NFS](#servidor-nfs)
@@ -58,7 +58,7 @@ El resultado final de la VPC sería la siguiente:
 Como podemos ver, cada subred está asignada a su tabla de enrutamiento y a su salida a internet correspondiente.
 ![12](https://github.com/user-attachments/assets/deef59b0-6d52-4674-b29d-ab887b3588f2)
 
-## 3. Creacion de Instancias
+## 3. Creación de Instancias
 Con respecto a la infraestructura , necesitamos crear las siguientes instancias.
 
 ### Balanceador de Carga
