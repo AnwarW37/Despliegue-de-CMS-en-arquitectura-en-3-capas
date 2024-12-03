@@ -15,8 +15,8 @@ sudo apt install apache2 -y
 
 #Copiamos el Fichero de config
 sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/wordpress.conf
-sudo nano /etc/apache2/sites-available/wordpress.conf
 #Configuramos el fichero de la siguiente forma:
+#sudo nano /etc/apache2/sites-available/wordpress.conf
 
 # <VirtualHost *:80>
 #        ServerAdmin webmaster@localhost
