@@ -63,6 +63,7 @@ Necesitamos crear las siguientes instancias.
   * El grupo de seguridad que he creado es el siguiente:
     * Permite el tráfico HTTP, HTTPS y SSH desde cualquier red; podemos mejorar la seguridad asignando nuestra IP a la regla del SSH.
   * ![9](https://github.com/user-attachments/assets/6ccce951-67c8-464f-95f6-4d52ff178e65)
+  * > **Nota:** IMPORTANTE ASOCIARLE UNA IP ELASTICA PARA QUE LA IP Pública no cambie.
 
 ### Servidores Web
   * He utilizado la imagen de Ubuntu Server 24.04 LTS.
