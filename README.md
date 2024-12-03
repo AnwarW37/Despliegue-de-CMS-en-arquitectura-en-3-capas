@@ -27,7 +27,7 @@ En primer lugar he creado la VPC. Con la red 192.168.1.0/24
 ![1](https://github.com/user-attachments/assets/83229e7d-bc96-4ed9-93bd-eb05b4079127)
 
 ### Subredes
-Para mayor seguridad he dividido la red 192.168.1.0/24 en 3 subredes, una para cada capa.
+He dividido la red 192.168.1.0/24 en 3 subredes, una para cada capa.
 * **Subred Pública**.
 ![2](https://github.com/user-attachments/assets/0a33a75a-618a-422f-97bc-19de53c3e03b)
   Importante, para la Subred Pública, tenemos que activar la siguiente opción para que, cuando vayamos a crear la instancia, esté le asigne una IP pública.
