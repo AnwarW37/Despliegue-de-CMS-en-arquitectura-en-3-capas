@@ -12,9 +12,8 @@ sudo systemctl restart apache2
 sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/load-balancer.conf
 #Editamos el fichero de config.
 
-#sudo nano /etc/apache2/sites-available/load-balancer.conf
-
 #Editamos el fichero de configuración.Ponemos las IPs de los servidores web.
+#sudo nano /etc/apache2/sites-available/load-balancer.conf
 #<VirtualHost *:80>
 #        <Proxy balancer://mycluster>
 #                # Server 1
