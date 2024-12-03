@@ -9,6 +9,7 @@
     - [Servidores Web](#servidores-web)
     - [Servidor NFS](#servidor-nfs)
     - [Servidor Base de Datos](#servidor-base-de-datos)
+- [Aprovisionamiento de las Instancias](#Aprovisionamiento-de-las-Instancias)
 
 ## Introducción
 En esta práctica, he desplegado WordPress en AWS con alta disponibilidad y escalabilidad, implementando una arquitectura en tres capas:
@@ -86,4 +87,12 @@ Necesitamos crear las siguientes instancias.
   * El grupo de seguridad que he creado es el siguiente:
     * Permite el tráfico de MySQL Puerto "3306" a los servidores web. La regla SSH, como he comentado anteriormente, la podemos quitar o poner la IP del dispositivo con el que nos vamos a conectar. Yo, en este caso, me he conectado mediante los servidores web. Ya que la práctica nos especifíca que no puede haber conectividad entre la Capa 1 y la Capa 3.
   * ![10](https://github.com/user-attachments/assets/275659f4-3bf2-4035-b743-67ab6d10c389)
-a
+
+## Aprovisionamiento de las Instancias
+Los comando que he utilizado para instalar y configurar las instancias están en los ficheros de aprovisionamiento. Con una breve explicación de lo que hace cada comando.
+
+Para conectarme a la instancia, he descargado el archivo labuser.pem desde la página de lanzamiento del laboratorio de AWS. Es importante asignar los siguientes permisos al archivo para que nos permita conectarnos por SSH a la instancia del balanceador, que es la que tiene la IP pública.
+
+
+
+
