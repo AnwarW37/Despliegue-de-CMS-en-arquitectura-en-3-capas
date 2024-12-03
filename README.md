@@ -29,7 +29,9 @@ En primer lugar he creado la VPC. Con la red 192.168.1.0/24
 He dividido la red 192.168.1.0/24 en 3 subredes, una para cada capa.
 * **Subred Pública**.
 ![2](https://github.com/user-attachments/assets/0a33a75a-618a-422f-97bc-19de53c3e03b)
-  Importante, para la Subred Pública, tenemos que activar la siguiente opción para que, cuando vayamos a crear la instancia, esté le asigne una IP pública.
+
+> [!IMPORTANT]
+> Es importante que, para la subred pública, activemos la siguiente opción para que, al crear la instancia, esta reciba una dirección IP pública.
 
 * ![5](https://github.com/user-attachments/assets/d19378e0-d232-4bdb-ae86-d1cbdfaa71bd)
 
@@ -66,7 +68,9 @@ Con respecto a la infraestructura , necesitamos crear las siguientes instancias.
   * El grupo de seguridad que he creado es el siguiente:
     * Permite el tráfico HTTP, HTTPS y SSH desde cualquier red; podemos mejorar la seguridad asignando nuestra IP a la regla del SSH.
   * ![9](https://github.com/user-attachments/assets/6ccce951-67c8-464f-95f6-4d52ff178e65)
-  * > **IMPORTANTE:** ASOCIARLE UNA IP ELASTICA PARA QUE LA IP Pública no cambie.
+
+> [!IMPORTANT]
+> ASOCIARLE UNA IP ELASTICA PARA QUE LA IP PÚBLICA NO CAMBIE.
 
 ### Servidores Web
   * He utilizado la imagen de Ubuntu Server 24.04 LTS.
