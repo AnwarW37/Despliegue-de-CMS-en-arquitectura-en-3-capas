@@ -4,7 +4,7 @@
   - [VPC](#vpc)
   - [Subredes](#subredes)
   - [Tablas de enrutamiento](#tablas-de-enrutamiento)
-- [Creación de Instancias](#3. Creacion de Instancias)
+- [Creación de Instancias](#3.-Creacion-de-Instancias)
     - [Balanceador de Carga](#balanceador-de-carga)
     - [Servidores Web](#servidores-web)
     - [Servidor NFS](#servidor-nfs)
