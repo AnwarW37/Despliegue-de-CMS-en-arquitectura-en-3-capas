@@ -53,10 +53,11 @@ Creamos 2 tablas de enrutamiento, una para la subred pública y otra para las pr
   ![7](https://github.com/user-attachments/assets/9f7f3315-d39a-435e-979c-bcdaacd4d7ad)
 
 El resultado final de la VPC sería la siguiente:
+Como podemos ver, cada subred está asignada a su tabla de enrutamiento y a su salida a internet correspondiente.
 ![12](https://github.com/user-attachments/assets/deef59b0-6d52-4674-b29d-ab887b3588f2)
 
 ## Instancias
-Necesitamos crear las siguientes instancias.
+Con respecto a la infraestructura , necesitamos crear las siguientes instancias.
 
 ### Balanceador de Carga
   * He utilizado la imagen de Ubuntu Server 24.04 LTS.
@@ -93,10 +94,10 @@ Necesitamos crear las siguientes instancias.
 
 ## Aprovisionamiento de las Instancias
 Los comando que he utilizado para instalar y configurar las instancias están en los ficheros de aprovisionamiento. Con una breve explicación de lo que hace cada comando.
-* [Balanceador](BALANaprov.sh)
-* [NFS](NFSaprov.sh)
-* [Servidores Web](WEBaprov.sh)
-* [Base Datos](BDaaprov.sh)
+* [Script Balanceador](BALANaprov.sh)
+* [Script NFS](NFSaprov.sh)
+* [Script Servidores Web](WEBaprov.sh)
+* [Script Base Datos](BDaaprov.sh)
 
 Para conectarme a la instancia, he descargado el archivo labuser.pem desde la página de lanzamiento del laboratorio de AWS. Es importante asignar los siguientes permisos al archivo para que nos permita conectarnos por SSH a la instancia del balanceador, que es la que tiene la IP pública.
 
