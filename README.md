@@ -45,7 +45,7 @@ Creamos 2 tablas de enrutamiento, una para la subred pública y otra para las pr
 
 * **Tabla de Enrutamiento Pública**:
   
-Le asociamos la subred pública y le añadimos las siguientes rutas: la local, que viene por defecto, y la de Internet. Para ello, antes necesitamos crear una puerta de enlace de Internet.
+  Le asociamos la subred pública y le añadimos las siguientes rutas: la local, que viene por defecto, y la de Internet. Para ello, antes necesitamos crear una puerta de enlace de Internet.
   ![6](https://github.com/user-attachments/assets/ffa1d6dc-a7aa-43e4-a257-11652da05f24)
   
 * **Tabla de Enrutamiento Privada**:
