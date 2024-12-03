@@ -122,7 +122,7 @@ Una vez conectados, ya podremos aprovisionar las instancias,Los comando que he u
 * [Script Servidores Web](WEBaprov.sh)
 * [Script Base Datos](BDaaprov.sh)
 
-Estos fichero , vienen ordenador y  con una breve explicación de lo que hace cada comando.
+Estos ficheros , vienen ordenados y  con una breve explicación de lo que hace cada comando.
 
 
 
