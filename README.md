@@ -97,7 +97,7 @@ Con respecto a la infraestructura , necesitamos crear las siguientes instancias.
   * ![10](https://github.com/user-attachments/assets/275659f4-3bf2-4035-b743-67ab6d10c389)
 
 ## Aprovisionamiento de las Instancias
-En primer lugar , tengo que  conectarme a la instancia.Para ello, he descargado el archivo labuser.pem desde la página de lanzamiento del laboratorio de AWS. Es importante asignar los siguientes permisos al archivo para que nos permita conectarnos por SSH a la instancia del balanceador, que es la que tiene la IP pública.
+En primer lugar , tengo que  conectarme a la instancia. Para ello, he descargado el archivo labuser.pem desde la página de lanzamiento del laboratorio de AWS. Es importante asignar los siguientes permisos al archivo para que nos permita conectarnos por SSH a la instancia del balanceador, que es la que tiene la IP pública.
 
 Le damos permisos de lectura al usuario.
 ```
@@ -111,9 +111,9 @@ Para pasar el fichero de clave "labuser.pem" al servidor web.
 ```
 scp -i "labsuser.pem" labuser.pem ubuntu@192.168.1.69:/home/ubuntu
 ```
-Para conectarnos es igual que en los pasos anteriores.
 
-Una vez conectador ya podremos aprovisionar las instancias,Los comando que he utilizado para instalar y configurar las instancias están en los ficheros de aprovisionamiento. Con una breve explicación de lo que hace cada comando.
+Una vez conectados, ya podremos aprovisionar las instancias,Los comando que he utilizado para instalar y configurar las instancias están en los ficheros de aprovisionamiento. Con una breve explicación de lo que hace cada comando.
+
 * [Script Balanceador](BALANaprov.sh)
 * [Script NFS](NFSaprov.sh)
 * [Script Servidores Web](WEBaprov.sh)
