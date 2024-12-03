@@ -13,6 +13,9 @@ echo "192.168.33.40:/var/nfs/general    /nfs/general   nfs auto,nofail,noatime,n
 sudo apt update
 sudo apt install apache2 -y
 
+#Instalamos PHP
+sudo apt install php libapache2-mod-php php-mysql php-curl php-gd php-xml php-mbstring php-xmlrpc php-zip php-soap php-intl -y
+
 #Copiamos el Fichero de config
 sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/wordpress.conf
 #Configuramos el fichero de la siguiente forma:
