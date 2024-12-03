@@ -1,6 +1,6 @@
 ## Índice
-- [Introducción](#introducción)
-- [Despliegue y Configuración](#despliegue-y-configuración)
+- [1.Introducción](#1.-introducción)
+- [2.Despliegue y Configuración](#2.-despliegue-y-configuración)
   - [VPC](#vpc)
   - [Subredes](#subredes)
   - [Tablas de enrutamiento](#tablas-de-enrutamiento)
@@ -9,16 +9,16 @@
     - [Servidores Web](#servidores-web)
     - [Servidor NFS](#servidor-nfs)
     - [Servidor Base de Datos](#servidor-base-de-datos)
-- [Aprovisionamiento de las Instancias](#Aprovisionamiento-de-las-Instancias)
+- [3.Aprovisionamiento de las Instancias](#3.-Aprovisionamiento-de-las-Instancias)
 
-## Introducción
+## 1. Introducción
 En esta práctica, he desplegado WordPress en AWS con alta disponibilidad y escalabilidad, implementando una arquitectura en tres capas:
 
 ![Diagrama sin título drawio](https://github.com/user-attachments/assets/5579930a-64b2-4dcd-8a3b-2728d578b601)
 
 Con respecto a la infraestructura, que solo la capa pública sea accesible desde el exterior. Además, se impedirá la conectividad directa entre las capas 1 y 3, y se utilizarán grupos de seguridad para proteger las máquinas y gestionar el tráfico entre las diferentes capas.
 
-## Despliegue y Configuración
+## 2. Despliegue y Configuración
 
 ### VPC
 En primer lugar he creado la VPC. Con la red 192.168.1.0/24
@@ -99,7 +99,7 @@ Con respecto a la infraestructura , necesitamos crear las siguientes instancias.
     * La regla SSH, como he comentado anteriormente, la podemos quitar o poner la IP del dispositivo con el que nos vamos a conectar. Yo, en este caso, me he conectado mediante los servidores web. Ya que la práctica nos especifíca que no puede haber conectividad entre la Capa 1 y la Capa 3.
   * ![10](https://github.com/user-attachments/assets/275659f4-3bf2-4035-b743-67ab6d10c389)
 
-## Aprovisionamiento de las Instancias
+## 3. Aprovisionamiento de las Instancias
 En primer lugar , tengo que  conectarme a la instancia. Para ello, he descargado el archivo labuser.pem desde la página de lanzamiento del laboratorio de AWS. Es importante asignar los siguientes permisos al archivo para que nos permita conectarnos por SSH a la instancia del balanceador, que es la que tiene la IP pública.
 
 Le damos permisos de lectura al usuario.
