@@ -1,3 +1,4 @@
+# DESPLIEGUE DE CMS 3 CAPAS
 ## Índice
 - [1.Introducción](#1.-introducción)
 - [2.Despliegue y Configuración](#2.-despliegue-y-configuración)
@@ -118,6 +119,9 @@ scp -i "labsuser.pem" labuser.pem ubuntu@192.168.1.69:/home/ubuntu
 Una vez conectados, ya podremos aprovisionar las instancias,Los comando que he utilizado para instalar y configurar las instancias están en los ficheros de aprovisionamiento. Con una breve explicación de lo que hace cada comando.
 
 * [Script Balanceador](BALANaprov.sh)
+```
+scp -i "labsuser.pem" labuser.pem ubuntu@192.168.1.69:/home/ubuntu
+```
 * [Script NFS](NFSaprov.sh)
 * [Script Servidores Web](WEBaprov.sh)
 * [Script Base Datos](BDaaprov.sh)
