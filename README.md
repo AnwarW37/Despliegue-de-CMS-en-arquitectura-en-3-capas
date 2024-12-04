@@ -119,7 +119,7 @@ scp -i "labsuser.pem" labuser.pem ubuntu@192.168.1.69:/home/ubuntu
 Una vez conectados, ya podremos aprovisionar las instancias,Los comando que he utilizado para instalar y configurar las instancias están en los ficheros de aprovisionamiento. Con una breve explicación de lo que hace cada comando.
 
 * [Script Balanceador](BALANaprov.sh)
-```
+```bash
 # Actualizar repositorios y instalamos Apache.
 sudo apt update
 sudo apt install apache2 -y
@@ -134,8 +134,7 @@ sudo systemctl restart apache2
 sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/load-balancer.conf
 #Editamos el fichero de config.
 
-#Editamos el fichero de configuración.Ponemos las IPs de los servidores web.
-#sudo nano /etc/apache2/sites-available/load-balancer.conf
+#Editamos el fichero de configuración /etc/apache2/sites-available/load-balancer.conf . Ponemos las IPs de los servidores web.
 #<VirtualHost *:80>
 #        <Proxy balancer://mycluster>
 #                # Server 1
