@@ -3,7 +3,7 @@ sudo apt update
 sudo apt install mysql-server -y
 
 #Creamos la base de datos.
-sudo mysql -e "CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;"ç
+sudo mysql -e "CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;"
 
 #Creamos los usuarios para que los servidores web puedan acceder a la base de datos.
 #ServidorWeb1
