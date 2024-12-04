@@ -259,5 +259,6 @@ sudo ln -fs /snap/bin/certbot /usr/bin/certbot
 sudo certbot --apache
 ```
 Una vez realizado esto, se creará automáticamente un sitio seguro con HTTPS en nuestro servidor balanceador de carga.
+
 ![13](https://github.com/user-attachments/assets/d1cf661f-cabb-4e59-bd3d-0603085e4cc4)
 
