@@ -75,7 +75,7 @@ Con respecto a la infraestructura , necesitamos crear las siguientes instancias.
   * ![9](https://github.com/user-attachments/assets/6ccce951-67c8-464f-95f6-4d52ff178e65)
 
 > [!IMPORTANT]
-> ASOCIARLE UNA IP ELASTICA PARA QUE LA IP PÚBLICA NO CAMBIE.
+> ASOCIARLE UNA IP ELÁSTICA PARA QUE LA IP PÚBLICA NO CAMBIE.
 
 ### Servidores Web
   * He utilizado la imagen de Ubuntu Server 24.04 LTS.
