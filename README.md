@@ -241,7 +241,7 @@ sudo cat /etc/mysql/mysql.conf.d/mysqld.cnf |sed "s/^bind-address[[:space:]]*=.*
 sudo systemctl restart mysql
 ```
 
-## SITO WEB SEGURO Y DOMINIO
+## 5. SITO WEB SEGURO Y DOMINIO
 Para que la página web sea segura :
 * Primero, para asignar un dominio a mi IP publica , he utilizado "noip.com" .
 * Después, he instalado y configurado el cliente ACME Certbot.
