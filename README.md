@@ -1,4 +1,4 @@
-# DESPLIEGUE DE CMS 3 CAPAS
+# DESPLIEGUE DE WORDPRESS EN 3 CAPAS AWS
 ## Índice
 - [1. Introducción](#1-introducción)
 - [2. Despliegue y Configuración](#2-despliegue-y-configuración)
