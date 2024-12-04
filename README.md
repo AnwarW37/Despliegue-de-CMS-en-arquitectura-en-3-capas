@@ -240,7 +240,7 @@ sudo cat /etc/mysql/mysql.conf.d/mysqld.cnf |sed "s/^bind-address[[:space:]]*=.*
 sudo systemctl restart mysql
 ```
 
-Estos ficheros , vienen ordenados y  con una breve explicación de lo que hace cada comando.
+## 
 
 
 
