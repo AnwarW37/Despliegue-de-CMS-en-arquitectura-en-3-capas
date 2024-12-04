@@ -227,7 +227,7 @@ sudo apt update
 sudo apt install mysql-server -y
 
 #Creamos la base de datos.
-sudo mysql -e "CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;"ç
+sudo mysql -e "CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;"
 
 #Creamos los usuarios para que los servidores web puedan acceder a la base de datos.
 #ServidorWeb1
@@ -259,4 +259,5 @@ sudo ln -fs /snap/bin/certbot /usr/bin/certbot
 sudo certbot --apache
 ```
 Una vez realizado esto, se creará automáticamente un sitio seguro con HTTPS en nuestro servidor balanceador de carga.
+![13](https://github.com/user-attachments/assets/d1cf661f-cabb-4e59-bd3d-0603085e4cc4)
 
