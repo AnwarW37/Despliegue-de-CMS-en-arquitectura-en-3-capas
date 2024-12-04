@@ -252,7 +252,7 @@ sudo snap install core
 # Instalamos el cliente de Certbot con snapd
 sudo snap install --classic certbot
 sudo ln -fs /snap/bin/certbot /usr/bin/certbot
-#Creamos el certificado y rellenamos con los datos que no piden.(Ponemos el dominio que hemos)
+#Creamos el certificado y rellenamos con los datos que no piden.(Ponemos el dominio que hemos creado anteriormente.)
 sudo certbot --apache
 ```
 Una vez realizado esto, se creará automáticamente un sitio seguro con HTTPS en nuestro servidor balanceador de carga.
