@@ -53,7 +53,7 @@ Creamos 2 tablas de enrutamiento, una para la subred pública y otra para las pr
   
 * **Tabla de Enrutamiento Privada**:
   
-  La asociamos a las subredes privadas y le añadimos las siguientes rutas. La local que viene por defecto y, para que tengan conexión a internet, primero antes creamos una GateawayNAT. Una vez instalados los paquetes que necesitamos, se lo quitamos para una mayor seguridad.
+  La asociamos a las subredes privadas y le añadimos las siguientes rutas. La local que viene por defecto y, para que tengan conexión a internet, primero creamos una Gateway NAT. Una vez instalados los paquetes que necesitamos, se lo quitamos para una mayor seguridad.
   ![7](https://github.com/user-attachments/assets/9f7f3315-d39a-435e-979c-bcdaacd4d7ad)
 
 > [!IMPORTANT]
@@ -71,7 +71,7 @@ Con respecto a la infraestructura , necesitamos crear las siguientes instancias.
   * Par de claves vockey.
   * En la configuración de red, he seleccionado la VPC que hemos creado anteriormente, la subred pública y habilitado la opción de asignar automáticamente la IP pública.
   * El grupo de seguridad que he creado es el siguiente:
-    * Permite el tráfico HTTP, HTTPS y SSH desde cualquier red; podemos mejorar la seguridad asignando nuestra IP a la regla del SSH.
+    * Permite el tráfico HTTP, HTTPS y SSH desde cualquier red. Podemos mejorar la seguridad asignando nuestra IP a la regla del SSH.
   * ![9](https://github.com/user-attachments/assets/6ccce951-67c8-464f-95f6-4d52ff178e65)
 
 > [!IMPORTANT]
