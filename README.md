@@ -1,16 +1,17 @@
 # DESPLIEGUE DE CMS 3 CAPAS
 ## Índice
-- [1.Introducción](#1.-introducción)
-- [2.Despliegue y Configuración](#2.-despliegue-y-configuración)
+- [1. Introducción](#1-introducción)
+- [2. Despliegue y Configuración](#2-despliegue-y-configuración)
   - [VPC](#vpc)
   - [Subredes](#subredes)
   - [Tablas de enrutamiento](#tablas-de-enrutamiento)
-- [3.Creación de Instancias](#3.Creación-de-Instancias)
-    - [Balanceador de Carga](#balanceador-de-carga)
-    - [Servidores Web](#servidores-web)
-    - [Servidor NFS](#servidor-nfs)
-    - [Servidor Base de Datos](#servidor-base-de-datos)
-- [4.Aprovisionamiento de las Instancias](#4.-Aprovisionamiento-de-las-Instancias)
+- [3. Creación de Instancias](#3-creación-de-instancias)
+  - [Balanceador de Carga](#balanceador-de-carga)
+  - [Servidores Web](#servidores-web)
+  - [Servidor NFS](#servidor-nfs)
+  - [Servidor Base de Datos](#servidor-base-de-datos)
+- [4. Aprovisionamiento de las Instancias](#4-aprovisionamiento-de-las-instancias)
+- [5. Sitio Web Seguro y Dominio](#5-sitio-web-seguro-y-dominio)
 
 ## 1. Introducción
 En esta práctica, he desplegado WordPress en AWS con alta disponibilidad y escalabilidad, implementando una arquitectura en tres capas:
@@ -240,8 +241,19 @@ sudo cat /etc/mysql/mysql.conf.d/mysqld.cnf |sed "s/^bind-address[[:space:]]*=.*
 sudo systemctl restart mysql
 ```
 
-## 
+## SITO WEB SEGURO Y DOMINIO
+Para que la página web sea segura :
+* Primero, para asignar un dominio a mi IP publica , he utilizado "noip.com" .
+* Después, he instalado y configurado el cliente ACME Certbot.
 
-
-
+```bash
+# Instalacion snapd
+sudo snap install core
+# Instalamos el cliente de Certbot con snapd
+sudo snap install --classic certbot
+sudo ln -fs /snap/bin/certbot /usr/bin/certbot
+#Creamos el certificado y rellenamos con los datos que no piden.(Ponemos el dominio que hemos)
+sudo certbot --apache
+```
+Una vez realizado esto, se creará automáticamente un sitio seguro con HTTPS en nuestro servidor balanceador de carga.
 
