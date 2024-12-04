@@ -11,7 +11,7 @@
   - [Servidor NFS](#servidor-nfs)
   - [Servidor Base de Datos](#servidor-base-de-datos)
 - [4. Aprovisionamiento de las Instancias](#4-aprovisionamiento-de-las-instancias)
-- [5. Sitio Web Seguro y Dominio](#5-sitio-web-seguro-y-dominio)
+- [5. Sitio Web Seguro y Dominio](#5.-sitio-web-seguro-y-dominio)
 
 ## 1. Introducción
 En esta práctica, he desplegado WordPress en AWS con alta disponibilidad y escalabilidad, implementando una arquitectura en tres capas:
